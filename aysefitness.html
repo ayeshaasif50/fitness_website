@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            My Fitness
+        </title>
+        <style>
+            body{
+                padding: 0;
+                margin: 0;
+                background: url(images/img3\ \(2\).jpg) no-repeat center center fixed;
+                background-size: cover;
+                color: aliceblue;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                
+
+            }
+            .header{
+                border:2px solid none;
+                display: inline-block;
+                margin:0 auto;
+                width:100%;
+                height:140px;
+                background-color: rgba(0,0,0,0.6);
+          
+            }
+            .left{
+                display: inline-block;
+                position: absolute;
+                border:2px solid none;
+                left:34px;
+                top:12px;
+            }
+            .mid{
+                display: block;
+                width:50%;
+                margin:55px auto;
+                border: 2px solid none;
+                 text-align: center;
+            }
+            .right{
+                display: inline-block;
+                position: absolute;
+                border:2px solid none;
+                right:34px;
+                top:12px;
+                margin:38px auto;
+            }
+            .navbar{
+                display: inline-block;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            .navbar li{
+                display: inline-block;
+            }
+            .navbar li a{
+                color: aliceblue;
+                text-decoration: none;
+                padding: 20px 15px;
+                transition: color 0.3s,text-decoration 0.3s;
+            }
+            .navbar li a:hover{
+                text-decoration: underline;
+                color: rgb(206, 194, 194);
+
+
+            }
+            .navbar li a:hover,.navbar li a.active{
+                text-decoration: underline;
+                color: rgb(206, 194, 194);
+
+
+            }
+            .left img{
+               max-width: 118px;
+               height: auto;
+         }
+         .btn{
+            border: 2px solid white;
+            border-radius: 10px;
+            transition: color 0.3s,text-decoration 0.3s;
+            color: aliceblue;
+            background-color: transparent;
+            padding:6px 20px;
+            margin: 0px 9px;
+           
+            font-size: 14px;
+
+         }
+         .btn:hover{
+            cursor:pointer;
+            text-decoration: underline;
+            color: rgb(206, 194, 194);
+         }
+         .container{
+                     border: 2px solid white;
+                     border-radius: 10px;
+                     margin: 50px auto;
+                     width:33%;
+                     padding: 25px 20px;
+                     background-color: rgba(0,0,0,0.6);
+                     position: relative;
+                     top:150px;
+                     left:0;
+                     right:0;
+         }
+         .container h1{
+           text-align: center;
+           margin-bottom: 20px;
+         }
+         .form-group{
+            margin-bottom: 15px;
+         }
+         .form-group input{
+            display: block;
+            text-align: center;
+            width: 80%;
+            padding:10px;
+            margin:0 auto;
+         }
+         .container button{
+            display: block;
+            margin:0 auto;
+            padding:10px ;
+            width:80%;
+         }
+
+        </style>
+    </head>
+    <body>
+    <header class="header">
+        <div class="left">
+            <img src="images/LOGO1.png" alt="">
+            </div>
+        <div class="mid">
+            <ul class="navbar">
+             <li><a href="aysefitness.html" class="active">Home</a></li>
+             <li><a href="about.html">About Us</a></li>
+             <li><a href="contact.html">Contact Us</a></li>
+             <li><a href="fitness_calculator.html">Fitness Calculator</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us </button>
+            <button class="btn">Email Us </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN US NOW</h1>
+    <form class="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your locality">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+</div>
+    </body>
+</html>
